@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txtBil1"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="bil1"
+        android:layout_marginRight="5dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/txtOpr"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="oprasi"
+        android:layout_marginRight="5dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/txtBil2"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="bil2"
+        android:layout_marginRight="5dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="="
+        android:layout_marginRight="5dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/txtHasil"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="hasil"
+        android:layout_marginRight="5dp"
+        android:textAlignment="center"/>
+
+</LinearLayout>
